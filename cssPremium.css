@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-family: var(--font-family,CircularSpTitle,CircularSpTitle-Tall,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));;
+    color: rgb(253, 253, 253);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 2, 2);
+    padding-bottom: -15px;
+}
+.logo{
+    display: flex;
+    padding: 20px 0 0 50px;
+}
+.logo:hover{
+    display: flex;
+    padding: 20px 0 0 30px;
+    cursor: pointer;
+}
+
+.navword{
+    display: flex;
+    padding-top: 5px;
+    padding-right: 80px;
+}
+.navword ul{
+    display: flex;
+}
+.navword li{
+    margin: 4px 15px;
+    padding-top: 20px;
+}
+.navword li:hover{
+    margin: 4px 15px;
+    padding-top: 20px;
+    cursor: pointer;
+    color: green;
+}
+.navword p{
+    margin: 4px 15px;
+    padding-top: 20px;
+}
+
+.phase1{
+    background-color:rgb(29, 117, 222);
+    padding: 0px 50px 0px 100px;
+}
+.phase1 h2{
+    padding-top: 60px;
+    font-size: 35px;
+    padding-left: 13px;
+}
+.phase1 h3{
+    padding: 30px 109px 10px 10px;
+    font-size: 25px;
+    font-weight: lighter;
+}
+
+.phase2{
+    display: flex;
+    background-color: rgb(29, 117, 222);
+    padding-left: 102px;
+    padding-top: 35px;
+}
+.phase2 button{
+    padding: 13px 35px;
+    border-radius: 23px;
+    margin: 2px;
+    font-weight: bolder;
+}
+.phase2 button:hover{
+    padding: 14px 36px;
+    border-radius: 23px;
+    margin: 2px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.phase2-btn1 button{
+    background-color: black;
+    border: none;
+}
+.phase2-btn2 button{
+    background-color:rgb(29, 117, 222);
+    border: 2px solid white;
+}
+
+.phase3{
+    background-color: rgb(29, 117, 222);
+    padding: 60px 0 95px 102px;
+}
+.phase3 p{
+    font-size: 8px;
+}
+.phase4{
+    text-align: center;
+    margin-top: 150px;
+}
+.phase4 h2{
+    color: black;
+    font-size: 26px;
+}
+
+.phase5{
+    justify-content: center;
+    display: flex;
+    padding: 70px 0 0 0;
+}
+.phase5 img{
+    margin: 0 60px;
+}
+.phase5 h2{
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+.phase5 p{
+    color: black;
+    text-align: center;
+    padding-top: 9px;
+}
+
+.phase6{
+    background-color: rgb(241, 240, 240);
+}
+.phase6-text{
+    text-align: center;
+    padding-top: 100px;
+}
+.phase6-text h2{
+    font-size: 35px;
+    color: black;
+}
+.phase6 p{
+    padding-bottom: 50px;
+    color: black;
+}
+.phase7{
+    background-color:rgb(241, 240, 240);
+    display: flex;
+    justify-content: center;
+    padding: 23px 49px;
+}
+.phase7a{
+    background-color: rgb(219, 219, 228);
+    border-radius: 15px;
+    margin: 0 8px;
+}
+.phase7a-btn1{
+    background-color: rgb(29, 117, 222);
+    padding: 7px 9px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin: 15px 0 11px 15px;
+}
+.phase7a-btn1:hover{
+    background-color: rgb(29, 117, 222);
+    padding: 7px 9px;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin: 15px 0 11px 15px;
+    cursor: pointer;
+}
+.phase7-box1-btn2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 117, 222);
+    font-weight: bold;
+    padding: 7px 10px;
+    border-color: rgb(29, 117, 222);
+    border-radius: 3px;
+    border-width: 1px;
+    margin: 0 0 11px 15px;
+}
+.phase7-box1-btn2:hover{
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 117, 222);
+    font-weight: bold;
+    padding: 7px 10px;
+    border-color: rgb(29, 117, 222);
+    border-radius: 3px;
+    border-width: 1px;
+    margin: 0 0 11px 15px;
+}
+.phase7 h2{
+    margin-left: 14px;
+    margin-bottom: 8px;
+    color: black;
+}
+.phase7 p{
+    margin: 8px 14px;
+    color: black;
+}
+.hr{
+    justify-content: center;
+    margin: 0 15px;
+    box-shadow: 23px solid black;
+}
+.phase7a ul{
+    margin-left: 45px;
+    margin-bottom: 76px;
+}
+.sat{
+    padding-bottom: 34px;
+}
+.phase7a li{
+    margin: 14px 0;
+    color: black;
+}
+.phase7b-btn1{
+    background-color: rgb(0, 0, 0);
+    padding: 15px 69px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 24px;
+    margin-left: 29px;
+    margin-top: 16px;
+}
+.phase7b-btn1:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    padding: 15px 69px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 24px;
+    margin-left: 29px;
+    margin-top: 16px;
+}
+.phase7b{
+    margin: 34px ;
+}
+.phase7b {
+    justify-content: left;
+    font-size: 12px;
+    color: grey;
+    padding-bottom: 23px;
+}
+.phase7b span{
+    color: gray;
+    text-decoration: underline;
+}
+
+footer{
+    padding: 94px 40px 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    background-color: black;
+    font-size: 13px;
+}
+footer img{
+    width: 173px;
+    height: 53px;
+}
+footer img:hover{
+    width: 173px;
+    height: 53px;
+    cursor: pointer;
+}
+.header{
+    font-weight: bold;
+    color: gray;
+}
+.header:hover{
+    font-weight: bold;
+    color: gray;
+    cursor:auto;
+}
+footer li{
+    margin: 15px;
+}
+footer li:hover{
+    margin: 15px;
+    cursor: pointer;
+    color: green;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px 50px 60px;
+}
+.socials ul{
+    display: flex;
+}
+.socials li{
+    margin: 0px 7px;
+}
+.socials li:hover{
+    margin: 0px 7px;
+    cursor: pointer;
+    color: green;
+}
+.socials img{
+    width: 59px;
+    height: 59px;
+}
+.socials img:hover{
+    width: 59px;
+    height: 59px;
+    cursor: pointer;
+}
+.ending{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding-top: 120px;
+    padding-right: 70px;
+    font-size: 10px;
+}
+.ending img{
+    width: 29px;
+    margin-top: 29px;
+}
+.list-items1{
+    display: flex;
+    justify-content: space-between;
+}
+.list-items1 ul{
+    display: flex;
+    padding-left: 100px;
+}
+.list-items1 li{
+    color: gray;
+    padding-right: 20px;
+    font-size: 12px;
+}
+.list-items1 li:hover{
+    color: rgb(3, 97, 31);
+    padding-right: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.list-items2{
+    text-align: end;
+}
+.list-items2 li{
+    color: gray;
+    padding-bottom: 23px;
+}
